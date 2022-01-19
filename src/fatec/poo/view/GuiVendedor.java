@@ -171,7 +171,7 @@ public class GuiVendedor extends javax.swing.JFrame {
                 .addComponent(rbtnFeminino)
                 .addGap(18, 18, 18)
                 .addComponent(rbtnMasculino)
-                .addContainerGap(21, Short.MAX_VALUE))
+                .addContainerGap(25, Short.MAX_VALUE))
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -179,7 +179,7 @@ public class GuiVendedor extends javax.swing.JFrame {
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(rbtnFeminino)
                     .addComponent(rbtnMasculino))
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addGap(0, 7, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -263,8 +263,8 @@ public class GuiVendedor extends javax.swing.JFrame {
                             .addComponent(ftxtCPF, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(18, 18, 18)
+                        .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
                     .addComponent(txtNome, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -375,6 +375,8 @@ public class GuiVendedor extends javax.swing.JFrame {
             txtSalBase.setEnabled(true);
             txtTaxaComissao.setEnabled(true);
             cbxUF.setEnabled(true);
+            rbtnFeminino.setEnabled(true);
+            rbtnMasculino.setEnabled(true);
         }
     }//GEN-LAST:event_btnConsultarActionPerformed
 
@@ -528,13 +530,7 @@ public class GuiVendedor extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
-    private javax.swing.JPanel jPanel4;
-    private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
-    private javax.swing.JRadioButton rbtnAPrazo;
-    private javax.swing.JRadioButton rbtnAPrazo1;
-    private javax.swing.JRadioButton rbtnAVista;
-    private javax.swing.JRadioButton rbtnAVista1;
     private javax.swing.JRadioButton rbtnFeminino;
     private javax.swing.JRadioButton rbtnMasculino;
     private javax.swing.JTextField txtCEP;
